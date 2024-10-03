@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?w8ebrr');
+  src:  url('fonts/icomoon.eot?w8ebrr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?w8ebrr') format('truetype'),
+    url('fonts/icomoon.woff?w8ebrr') format('woff'),
+    url('fonts/icomoon.svg?w8ebrr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram-brands-solid:before {
+  content: "\e90a";
+}
+.icon-shopping-cart:before {
+  content: "\e90b";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-star-solid:before {
+  content: "\e900";
+}
+.icon-store:before {
+  content: "\e901";
+}
+.icon-forkandknife:before {
+  content: "\e902";
+}
+.icon-glass:before {
+  content: "\e9a0";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-youtube2:before {
+  content: "\ea9e";
+}
+.icon-award:before {
+  content: "\e903";
+}
