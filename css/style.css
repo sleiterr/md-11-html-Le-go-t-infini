@@ -716,7 +716,6 @@ input[type="submit"]:hover {
   flex-direction: column;
   max-width: 350px;
 
-
   gap: 26px;
 }
 
@@ -770,7 +769,6 @@ input[type="submit"]:hover {
   letter-spacing: 0.6px;
   line-height: 1.6em;
 }
-
 
 .suport-email {
   font-family: "Montserrat", system-ui;
