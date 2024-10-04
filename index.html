@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/icons.css" />
     <link rel="stylesheet" href="./css/media-queries.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Le goût infini</title>
   </head>
@@ -75,7 +76,8 @@
 
     <main>
       <!-- ABOUT-US -->
-      <section class="section-about" id="about-us">
+      <section class="section-about" data-aos="fade-up"
+          data-aos-duration="2000" id="about-us">
         <div class="about-container container">
           <img src="./Img/about-us.jpg" alt="about-us" class="about-img" />
           <div class="about-content">
@@ -94,7 +96,8 @@
       </section>
 
       <!-- OUR PARTNERS -->
-      <section class="section-partners" id="partners">
+      <section class="section-partners" data-aos="fade-up"
+        data-aos-duration="2000" id="partners">
         <div class="partners-container container">
 
           <h2 class="part-title">Our Partners</h2>
@@ -143,7 +146,9 @@
         <h2 class="menu-title">Menu</h2>
         <div class="menu-container container">
 
-          <div class="menu-box">
+          <div class="menu-box"
+              data-aos="fade-up"
+              data-aos-duration="2000">
             <img
               src="./Img/belgiske-vafler.jpg"
               alt="belgiske-vafler"
@@ -168,7 +173,9 @@
             </div>
           </div>
 
-          <div class="menu-box">
+          <div class="menu-box"
+              data-aos="fade-up"
+              data-aos-duration="2000" >
             <img
               src="./Img/pancakes-cream.jpg"
               alt="pancakes-cream"
@@ -193,7 +200,9 @@
             </div>
           </div>
 
-          <div class="menu-box">
+          <div class="menu-box"
+              data-aos="fade-up"
+              data-aos-duration="2000" >
             <img
               src="./Img/chicken-steak.jpg"
               alt="chicken-steak"
@@ -218,7 +227,8 @@
             </div>
           </div>
 
-          <div class="menu-box">
+          <div class="menu-box" data-aos="fade-up"
+              data-aos-duration="2000">
             <img
               src="./Img/mushroom-soup.jpg"
               alt="mushroom-soup"
@@ -243,7 +253,8 @@
             </div>
           </div>
 
-          <div class="menu-box">
+          <div class="menu-box" data-aos="fade-up"
+            data-aos-duration="2000">
             <img
               src="./Img/steak-with-sauce.jpg"
               alt="steak-with-sauce"
@@ -268,7 +279,8 @@
             </div>
           </div>
 
-          <div class="menu-box">
+          <div class="menu-box" data-aos="fade-up"
+            data-aos-duration="2000" >
             <img
               src="./Img/mushroom-pure.jpg"
               alt="mushroom-pure"
@@ -297,7 +309,9 @@
       </section>
 
           <!-- CONTACT-FORM -->
-      <section class="contact-section" id="contact">
+      <section class="contact-section"
+          data-aos="fade-up"
+          data-aos-duration="2000"id="contact">
         <div class="form-container container">
 
           <div class="form-box">
@@ -359,7 +373,8 @@
       </section>
 
       <!-- CHEF -->
-      <section class="chef" id="teams">
+      <section class="chef" data-aos="fade-up"
+        data-aos-duration="2000" id="teams">
         <div class="chef-container container">
           <h2 class="chef-title">Culinary Partners</h2>
           <div class="chef-pictures">
@@ -464,5 +479,9 @@
       </div>
     </footer>
     <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
