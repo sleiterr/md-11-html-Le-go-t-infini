@@ -106,6 +106,10 @@ button {
   display: flex;
 }
 
+.nav-menu.show {
+  display: flex;
+}
+
 /*? NAV-BAR */
 
 .nav-bar {
@@ -124,9 +128,6 @@ button {
   /* margin: auto; */
 }
 
-.nav-menu.show {
-  display: flex;
-}
 
 .nav-link {
   font-family: "Montserrat", system-ui;
@@ -745,10 +746,10 @@ input[type="submit"]:hover {
 }
 
 .suport {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 12px; */
+  gap: 12px;
 }
 
 .address-title {
